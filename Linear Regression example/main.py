@@ -28,7 +28,7 @@ for step in range(2001):
     # if use Placeholders
     # cost_val, W_val, b_val, _ = sess.run(
     #     [cost, W, b, train],
-    #     feed_dict={x_train:[1, 2, 3], y_train:[1, 2, 3]})
+    #     feed_dict={x_train:[1, 2, 3], y_train:[1,a 2, 3]})
     
     if step % 20 == 0:
         print(step, cost_val, W_val, b_val)
